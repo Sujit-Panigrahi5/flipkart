@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: #010101;
+    
+   
+}
+i{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+   
+}
+.circular{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: absolute;
+}
+.ci1{
+    background-color: #fff;
+    top: 1rem;
+    left: 40rem;
+   
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci2{
+    background-color: #7e3131;
+    top: 5rem;
+    left: 35rem;
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci3{
+    background-color: #1737c4;
+    top: 10rem;
+    left: 30rem;
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci4{
+    background-color: #db7508;
+    top: 15rem;
+    left: 25rem;
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci5{
+    background-color: #99c227;
+    top: 20rem;
+    left: 20rem;
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci6{
+    background-color: #66704b;
+    top: 25rem;
+    left: 15rem;
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci7{
+    background-color: #4927c2;
+    top: 30rem;
+    left: 10rem;
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci8{
+    background-color: #e614e6;
+    top: 35rem;
+    left: 5rem;
+    
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci9{
+    background-color: #c22758;
+    top: 40rem;
+    
+    animation: moves2 1.5s ease-out 150ms infinite alternate ;
+}
+.ci10{
+    background-color: #c22758;
+    top: 40rem;
+    
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+
+.ci12{
+    background-color: #c22758;
+    top: 35rem;
+    left: 5rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+
+.ci13{
+    background-color: #c22758;
+    top: 30rem;
+    left: 10rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.ci14{
+    background-color: #c22758;
+    top: 25rem;
+    left: 15rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.ci15{
+    background-color: #c22758;
+    top: 20rem;
+    left: 20rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.ci15{
+    background-color: #c22758;
+    top: 15rem;
+    left: 25rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.ci16{
+    background-color: #c22758;
+    top: 10rem;
+    left: 30rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.ci17{
+    background-color: #c22758;
+    top: 5rem;
+    left: 35rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.ci18{
+    background-color: #c22758;
+    top: 1rem;
+    left: 40rem;
+    animation: moves 1.5s ease-out 150ms infinite alternate ;
+}
+.atag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(rgb(0, 195, 255),rgb(69, 69, 166));
+    padding: 0.5rem 2rem;
+    animation: moves1 1.5s ease-out 150ms infinite alternate ;
+}
+@keyframes moves {
+    form{
+        left: 0%;
+       transform: rotate(0deg) skew(15deg,15deg);
+    }
+    to{
+        left: 92.3%;
+        transform: scale(1.2,1.2) rotate(360deg) skew(30deg,40deg);
+        
+        background-color: red;
+        transition: all 0.2s ease-in-out;
+    }
+    0% {
+        background-color: #fff;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: purple;
+    }
+
+}
+
+@keyframes moves1 {
+    form{
+        top:50% ;
+    }
+    to{
+        top: 250px;
+    }
+}
+
+@keyframes moves2 {
+    form{
+        
+        top:10px;
+       transform: rotate(0deg) skew(15deg,15deg);
+    }
+    to{
+        top: 0px;
+        transform: scale(1.2,1.2) rotate(360deg) skew(30deg,40deg);
+        
+        background-color: red;
+        transition: all 0.2s ease-in-out;
+    }
+    0% {
+        background-color: #fff;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: purple;
+    }
+
+}
